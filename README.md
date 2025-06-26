@@ -1,31 +1,29 @@
-☕ Estudo Java - Cadastro de Produtos com POO
-Repositório criado para praticar os fundamentos da Programação Orientada a Objetos (POO) em Java.
-Este projeto implementa um sistema simples de cadastro de produtos com validações de entrada e classificação de valor.
+☕ Estudo Java - POO com Interface Gráfica
+Repositório criado para concentrar meus exercícios e práticas de Programação Orientada a Objetos (POO) em Java.
+Inclui exemplos com validação, classificação e interface gráfica criada com Swing.
 
 🛠️ Funcionalidades
-✅ Cadastro de produtos via terminal: Insira nome e valor dos produtos com validação automatizada.
+✅ Cadastro de pessoas: Insira nome e idade na interface gráfica.
 
-✅ Validação de dados: Nome com letras e espaços, valor deve ser positivo.
+✅ Validação de dados: Garante que o nome contenha apenas letras e que a idade seja um número válido.
 
-✅ Classificação de valor: Produtos são categorizados como barato, caro ou muito caro com base no valor.
+✅ Classificação: Define categoria e status com base na idade.
 
-✅ Formatação monetária: Valores são exibidos no formato da moeda brasileira (R$).
+✅ Interface gráfica: Criada com Swing para fácil interação.
 
 📜 Estrutura do Código
-Produto.java – Classe principal com atributos encapsulados, construtor, validações e método toString().
+Cadastro.java – Interface gráfica e cadastro de pessoas.
 
-Util.java – Classe utilitária com métodos de validação de nome e valor.
+Pessoa.java – Modelo de dados para armazenar informações.
 
-Main.java – Classe de entrada com leitura de dados, tratamento de erros e exibição dos produtos.
+Util.java – Métodos auxiliares para validação e classificação.
 
 🔮 Melhorias Futuras
-💾 Salvar os produtos cadastrados em arquivo local ou banco de dados.
+💾 Salvar cadastros em um arquivo ou banco de dados.
 
-🎨 Criar uma interface gráfica (Swing ou JavaFX) para facilitar a interação.
+🎨 Melhorar o design da interface (look & feel).
 
-✏️ Permitir editar ou remover produtos cadastrados.
-
-🧪 Implementar testes automatizados com JUnit.
+✏️ Adicionar funcionalidades para editar e remover registros.
 
 ✨ Autor
 Desenvolvido por Felipe Saraiva
